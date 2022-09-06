@@ -37,6 +37,7 @@ public class Principal {
         
         float promedio = 0;
         float contador = 0;
+        float resultado;
         
         for(float numero:ListaRales) {
             promedio += numero;
@@ -44,8 +45,8 @@ public class Principal {
             System.out.println(numero);
         }
         
-        promedio = promedio / contador;
+        resultado = promedio / contador;
         
-        System.out.println("el promedio es: " + promedio);
+        System.out.println("el promedio es: " + resultado);
     }
 }
